@@ -7,6 +7,7 @@ Simple budget mkononi demo app
 
 import json
 import os
+from decimal import Decimal
 
 from django.http import JsonResponse
 from django.test import TestCase
@@ -52,11 +53,28 @@ def get_budget_fixture(thing_being_farmed: int):
     return budget
 
 
+def get_quantity(item: dict):
+    """
+    Get the value of the quantity
+    """
+    qty = item.get('quantity')
+    if isinstance(qty, dict):
+        return Decimal(qty["value"])
+    return Decimal(qty)
+
+
 def get_tomatoes_budget(acres: int = 1):
     """
     Calculates and returns tomatoes budget
     """
     budget = get_budget_fixture(thing_being_farmed=1)
+
+    for i, segment in enumerate(budget['segments']):
+        for i2, activity in enumerate(segment['activities']):
+            for i3, item in enumerate(activity['inputs']):
+                new_price = acres * item['price']
+                item['estimated_price'] = new_price
+                item['price'] = new_price
 
     return budget
 
@@ -66,6 +84,13 @@ def get_broilers_budget(chickens: int = 1):
     Calculates and returns broilers budget
     """
     budget = get_budget_fixture(thing_being_farmed=2)
+
+    for i, segment in enumerate(budget['segments']):
+        for i2, activity in enumerate(segment['activities']):
+            for i3, item in enumerate(activity['inputs']):
+                new_price = chickens * item['price']
+                item['estimated_price'] = new_price
+                item['price'] = new_price
 
     return budget
 
@@ -81,12 +106,18 @@ def show_index(request):
     """
     type_of_thing = request.GET.get('type')
 
+    amt = request.GET.get('amount')
+    if amt is not None and amt.isdigit():
+        amt = int(amt)
+    else:
+        amt = 1
+
     if type_of_thing and type_of_thing.isdigit() and\
             int(type_of_thing) in BUDGET_ALLOWED_TYPES:
         if int(type_of_thing) == 1:
-            budget = get_tomatoes_budget(acres=1)
+            budget = get_tomatoes_budget(acres=amt)
         elif int(type_of_thing) == 2:
-            budget = get_broilers_budget(chickens=1)
+            budget = get_broilers_budget(chickens=amt)
 
         return JsonResponse(budget)
 
