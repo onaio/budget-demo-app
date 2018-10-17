@@ -1,0 +1,623 @@
+{
+    "estimated_unit_sale_price":40,
+    "sale_unit":"kg",
+    "segments":[
+        {
+            "activities":[
+                {
+                    "description":"Grow seedlings in a nursery - 3 to 4 weeks",
+                    "id":0,
+                    "inputs":[
+                        {
+                            "estimated_price":16000,
+                            "notes":"",
+                            "name":"Seed",
+                            "quantity":{
+                                "value":"1.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"80g packs",
+                            "show_quantity":true,
+                            "price":16000,
+                            "id":0,
+                            "unit":"80g pack"
+                        },
+                        {
+                            "estimated_price":2400,
+                            "notes":"",
+                            "name":"Polythene sheet/mulch",
+                            "quantity":{
+                                "value":"8.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"metres",
+                            "show_quantity":true,
+                            "price":2400,
+                            "id":1,
+                            "unit":"metre"
+                        },
+                        {
+                            "estimated_price":30,
+                            "notes":"",
+                            "name":"Manure",
+                            "quantity":{
+                                "value":"30.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"kgs",
+                            "show_quantity":true,
+                            "price":30,
+                            "id":2,
+                            "unit":"kg"
+                        },
+                        {
+                            "estimated_price":7,
+                            "notes":"Triple Super Phosphate",
+                            "name":"Fertiliser (TSP)",
+                            "quantity":{
+                                "value":"0.12",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"kgs",
+                            "show_quantity":true,
+                            "price":7,
+                            "id":3,
+                            "unit":"kg"
+                        },
+                        {
+                            "estimated_price":300,
+                            "notes":"Bed preparation",
+                            "name":"Labour",
+                            "quantity":1,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":300,
+                            "id":4,
+                            "unit":"man day"
+                        },
+                        {
+                            "estimated_price":80,
+                            "notes":"",
+                            "name":"Pesticide/Fungicide (Nursery)",
+                            "quantity":{
+                                "value":"0.04",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"litres",
+                            "show_quantity":true,
+                            "price":80,
+                            "id":5,
+                            "unit":"litre"
+                        },
+                        {
+                            "estimated_price":1500,
+                            "notes":"For spraying",
+                            "name":"Labour",
+                            "quantity":5,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":1500,
+                            "id":6,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":"<ul><li>Use open field variety seeds that are determinate (harvested over a \\nshort period of time). Use polythene sheets/mulch to help retain \\nmoisture in the soil and stop weeds. Apply manure right before bed preparation then dig in together with the soil.</li><li>Triple Super Phosphate should be applied. It means NPK grade is 0:46:0.</li><li>To control diseases such as damping off, fusarium and bacterial wilt and pests like aphids, whiteflies and caterpillars, Use fungicides like PEARL, CONTROL and insecticides like OSHOTHION and ATOM.</li><li>Water the plants twice a week if there is no rain.<br/></li></ul>"
+                }
+            ],
+            "custom_costs":[
+
+            ],
+            "time_frame":"Start with a Nursery",
+            "exclude":false,
+            "id":0,
+            "is_one_time_cost":false
+        },
+        {
+            "activities":[
+                {
+                    "description":"Land preparation",
+                    "id":1,
+                    "inputs":[
+                        {
+                            "estimated_price":10000,
+                            "notes":"",
+                            "name":"Labour (mechanised)",
+                            "quantity":{
+                                "value":"1.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"",
+                            "show_quantity":false,
+                            "price":10000,
+                            "id":7,
+                            "unit":""
+                        }
+                    ],
+                    "notes":"<p>Prepare land in good time before planting is to start. This gives enough time for weeds and other organic matter to decompose.</p>"
+                },
+                {
+                    "description":"Hole preparation and manure application",
+                    "id":2,
+                    "inputs":[
+                        {
+                            "estimated_price":10000,
+                            "notes":"",
+                            "name":"Manure",
+                            "quantity":{
+                                "value":"10000.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"kgs",
+                            "show_quantity":true,
+                            "price":10000,
+                            "id":8,
+                            "unit":"kg"
+                        },
+                        {
+                            "estimated_price":2100,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":7,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":2100,
+                            "id":9,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":"<ul><li>Apply well-rotted manure right before bed preparation then dig in together with the soil. This cost does not include the transportation of the manure to your farm, which you may have to pay for.</li><li>Space the holes at 45cm from one hole to the other and 60 cm from one row to the other.</li></ul>"
+                },
+                {
+                    "description":"Transplanting",
+                    "id":3,
+                    "inputs":[
+                        {
+                            "estimated_price":6000,
+                            "notes":"",
+                            "name":"Fertiliser (TSP)",
+                            "quantity":{
+                                "value":"100.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"kgs",
+                            "show_quantity":true,
+                            "price":6000,
+                            "id":10,
+                            "unit":"kg"
+                        },
+                        {
+                            "estimated_price":1500,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":5,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":1500,
+                            "id":11,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":""
+                }
+            ],
+            "custom_costs":[
+
+            ],
+            "time_frame":"Transplanting",
+            "exclude":false,
+            "id":1,
+            "is_one_time_cost":false
+        },
+        {
+            "activities":[
+                {
+                    "description":"Top-dressing",
+                    "id":4,
+                    "inputs":[
+                        {
+                            "estimated_price":6000,
+                            "notes":"",
+                            "name":"Top dress (NPK)",
+                            "quantity":{
+                                "value":"120.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"kgs",
+                            "show_quantity":true,
+                            "price":6000,
+                            "id":12,
+                            "unit":"kg"
+                        },
+                        {
+                            "estimated_price":1200,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":4,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":1200,
+                            "id":13,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":""
+                },
+                {
+                    "description":"Spraying and watering",
+                    "id":5,
+                    "inputs":[
+                        {
+                            "estimated_price":4000,
+                            "notes":"Two applications",
+                            "name":"Insecticide",
+                            "quantity":{
+                                "value":"2.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"litres",
+                            "show_quantity":true,
+                            "price":4000,
+                            "id":14,
+                            "unit":"litre"
+                        },
+                        {
+                            "estimated_price":3600,
+                            "notes":"Two applications",
+                            "name":"Fungicide",
+                            "quantity":{
+                                "value":"2.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"litres",
+                            "show_quantity":true,
+                            "price":3600,
+                            "id":15,
+                            "unit":"litre"
+                        },
+                        {
+                            "estimated_price":1200,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":4,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":1200,
+                            "id":16,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":"<ul><li>Spray the plants twice a week for four weeks</li><li>Control insects like aphids, whiteflies and thrips using insectides like MANIK and diseases like bacterial soft rot and bacterial Leaf rot using SULCOP. <br/></li><li>Prevent Early and Late Blight using fungicides like OSHOTHANE. If attacked, treat with fungicides like MISTRESS.\\u00a0</li></ul><p>Spraying is normally done twice. Use half of the quantity in the first spray and the other half in the second spray. The interval depends on the product.</p>"
+                },
+                {
+                    "description":"Weeding",
+                    "id":6,
+                    "inputs":[
+                        {
+                            "estimated_price":2100,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":7,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":2100,
+                            "id":17,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":"<p>Where mulch is available, apply to reduce weeds.</p>"
+                },
+                {
+                    "description":"Nutrition",
+                    "id":7,
+                    "inputs":[
+                        {
+                            "estimated_price":1000,
+                            "notes":"Easy Gro Vegetative",
+                            "name":"Vegetative foliar",
+                            "quantity":{
+                                "value":"2.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"kgs",
+                            "show_quantity":true,
+                            "price":1000,
+                            "id":18,
+                            "unit":"kg"
+                        },
+                        {
+                            "estimated_price":600,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":2,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":600,
+                            "id":19,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":"<p>Apply a vegetative foliar such as EASY GRO VEGETATIVE.</p>"
+                }
+            ],
+            "custom_costs":[
+
+            ],
+            "time_frame":"3 to 4 weeks after transplanting",
+            "exclude":false,
+            "id":2,
+            "is_one_time_cost":false
+        },
+        {
+            "activities":[
+                {
+                    "description":"Top-dressing",
+                    "id":8,
+                    "inputs":[
+                        {
+                            "estimated_price":6000,
+                            "notes":"Use NPK 17:17:17 or 20:20:20",
+                            "name":"Top dress (NPK)",
+                            "quantity":{
+                                "value":"120.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"kgs",
+                            "show_quantity":true,
+                            "price":6000,
+                            "id":20,
+                            "unit":"kg"
+                        },
+                        {
+                            "estimated_price":1200,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":4,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":1200,
+                            "id":21,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":""
+                },
+                {
+                    "description":"Nutrition",
+                    "id":9,
+                    "inputs":[
+                        {
+                            "estimated_price":1500,
+                            "notes":"Easy Gro Flower and Fruit",
+                            "name":"Vegetative foliar",
+                            "quantity":{
+                                "value":"3.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"kgs",
+                            "show_quantity":true,
+                            "price":1500,
+                            "id":22,
+                            "unit":"kg"
+                        },
+                        {
+                            "estimated_price":600,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":2,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":600,
+                            "id":23,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":""
+                },
+                {
+                    "description":"Spraying",
+                    "id":10,
+                    "inputs":[
+                        {
+                            "estimated_price":4000,
+                            "notes":"Two applications",
+                            "name":"Insecticide",
+                            "quantity":{
+                                "value":"2.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"litres",
+                            "show_quantity":true,
+                            "price":4000,
+                            "id":24,
+                            "unit":"litre"
+                        },
+                        {
+                            "estimated_price":3600,
+                            "notes":"Two applications",
+                            "name":"Fungicide",
+                            "quantity":{
+                                "value":"2.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"litres",
+                            "show_quantity":true,
+                            "price":3600,
+                            "id":25,
+                            "unit":"litre"
+                        },
+                        {
+                            "estimated_price":1200,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":4,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":1200,
+                            "id":26,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":"<ul><li>Control insects like Aphids, Whiteflies and Thrips using insectides like ATOM.</li><li>Prevent Early and Late Blight using fungicides like MANCOFLO. If attacked, treat with fungicides like MISTRESS.</li></ul><p>Spraying is normally done twice. Use half of the quantity in the first spray and the other half in the second spray. The interval depends on the product.</p>"
+                },
+                {
+                    "description":"Weeding",
+                    "id":11,
+                    "inputs":[
+                        {
+                            "estimated_price":2100,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":7,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":2100,
+                            "id":27,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":"<p>Weeding is done manually.</p>"
+                }
+            ],
+            "custom_costs":[
+
+            ],
+            "time_frame":"5 to 8 weeks after transplanting",
+            "exclude":false,
+            "id":3,
+            "is_one_time_cost":false
+        },
+        {
+            "activities":[
+                {
+                    "description":"Nutrition",
+                    "id":12,
+                    "inputs":[
+                        {
+                            "estimated_price":1500,
+                            "notes":"Easy Gro Calcium",
+                            "name":"Vegetative foliar",
+                            "quantity":{
+                                "value":"3.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"kgs",
+                            "show_quantity":true,
+                            "price":1500,
+                            "id":28,
+                            "unit":"kg"
+                        },
+                        {
+                            "estimated_price":600,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":2,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":600,
+                            "id":29,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":"<p>Use EASY GRO CALCIUM to prevent Blossom End Rot in fruits.</p>"
+                },
+                {
+                    "description":"Spraying",
+                    "id":13,
+                    "inputs":[
+                        {
+                            "estimated_price":4000,
+                            "notes":"Two applications",
+                            "name":"Insecticide",
+                            "quantity":{
+                                "value":"2.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"litres",
+                            "show_quantity":true,
+                            "price":4000,
+                            "id":30,
+                            "unit":"litre"
+                        },
+                        {
+                            "estimated_price":3600,
+                            "notes":"Two applications",
+                            "name":"Fungicide",
+                            "quantity":{
+                                "value":"2.00",
+                                "__type__":"decimal"
+                            },
+                            "unit_plural":"litres",
+                            "show_quantity":true,
+                            "price":3600,
+                            "id":31,
+                            "unit":"litre"
+                        },
+                        {
+                            "estimated_price":1200,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":4,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":1200,
+                            "id":32,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":"<ul><li>Control insects like Aphids, whiteflies and thrips using insectides like ATOM.</li></ul><p>Spraying is normally done twice. Use half of the quantity in the first spray and the other half in the second spray. The interval depends on the product.</p>"
+                },
+                {
+                    "description":"Weeding",
+                    "id":14,
+                    "inputs":[
+                        {
+                            "estimated_price":2100,
+                            "notes":"",
+                            "name":"Labour",
+                            "quantity":7,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":2100,
+                            "id":33,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":"<p>Weeding is done manually.</p>"
+                },
+                {
+                    "description":"Harvesting",
+                    "id":15,
+                    "inputs":[
+                        {
+                            "estimated_price":15000,
+                            "notes":"Allow 5 man days per acre, per harvest",
+                            "name":"Labour",
+                            "quantity":50,
+                            "unit_plural":"man days",
+                            "show_quantity":true,
+                            "price":15000,
+                            "id":34,
+                            "unit":"man day"
+                        }
+                    ],
+                    "notes":"<p>Tomatoes are harvested twice a week for 5 weeks.</p>"
+                }
+            ],
+            "custom_costs":[
+
+            ],
+            "time_frame":"9 to 12 weeks after transplanting",
+            "exclude":false,
+            "id":4,
+            "is_one_time_cost":false
+        }
+    ],
+    "estimated_sale_quantity":15000,
+    "multiplier":1,
+    "sale_quantity":{
+        "value":"15000.00",
+        "__type__":"decimal"
+    },
+    "unit_sale_price":40,
+    "has_one_time_costs":false
+}

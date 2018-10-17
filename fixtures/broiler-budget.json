@@ -1,0 +1,408 @@
+{
+    "sale_unit":"chick",
+    "estimated_sale_quantity":500,
+    "sale_quantity":{
+        "__type__":"decimal",
+        "value":"500.00"
+    },
+    "unit_sale_price":400,
+    "multiplier":500,
+    "segments":[
+        {
+            "custom_costs":[
+
+            ],
+            "activities":[
+                {
+                    "inputs":[
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"500.00"
+                            },
+                            "name":"House materials",
+                            "price":60000,
+                            "unit":"",
+                            "notes":"",
+                            "unit_plural":"",
+                            "id":0,
+                            "estimated_price":60000
+                        },
+                        {
+                            "show_quantity":false,
+                            "quantity":1,
+                            "name":"Labour",
+                            "price":10000,
+                            "unit":"",
+                            "notes":"Allow 5 man days for construction, at KSh 2,000 per worker per day",
+                            "unit_plural":"",
+                            "id":1,
+                            "estimated_price":10000
+                        }
+                    ],
+                    "id":0,
+                    "description":"Construction of chicken house",
+                    "notes":""
+                },
+                {
+                    "inputs":[
+                        {
+                            "show_quantity":true,
+                            "quantity":1,
+                            "name":"Brooding jiko",
+                            "price":1800,
+                            "unit":"jiko",
+                            "notes":"",
+                            "unit_plural":"jikos",
+                            "id":2,
+                            "estimated_price":1800
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"10.00"
+                            },
+                            "name":"Chick trays",
+                            "price":2000,
+                            "unit":"tray",
+                            "notes":"",
+                            "unit_plural":"trays",
+                            "id":3,
+                            "estimated_price":2000
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"10.00"
+                            },
+                            "name":"Tube feeders",
+                            "price":8500,
+                            "unit":"feeder",
+                            "notes":"",
+                            "unit_plural":"feeders",
+                            "id":4,
+                            "estimated_price":8500
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"5.00"
+                            },
+                            "name":"Chick drinkers",
+                            "price":675,
+                            "unit":"drinker",
+                            "notes":"",
+                            "unit_plural":"drinkers",
+                            "id":5,
+                            "estimated_price":675
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"10.00"
+                            },
+                            "name":"Adult drinkers",
+                            "price":3500,
+                            "unit":"drinker",
+                            "notes":"",
+                            "unit_plural":"drinkers",
+                            "id":6,
+                            "estimated_price":3500
+                        }
+                    ],
+                    "id":1,
+                    "description":"Accessories for chicken house",
+                    "notes":"<p>When\\n  setting up a chicken house for your broilers:</p><ul><li>Build it from East to West. This stops strong winds and hot sun coming\\n  into your house.</li><li>Make a cement floor as these are easy to clean</li><li>Have a footbath outside the door with disinfectant. Step in this before\\n  you go inside your chicken house to avoid spreading diseases to your\\n  chickens.</li><li>\\n    Each broiler chicken needs at least 1 square foot of space. Make sure you\\n  know how many birds you plan to keep before your build the house.</li></ul>You will need 1 charcoal jiko per 750 chicks. Remove ashes from the jiko regularly to keep the fire glowing. Light jikos outside house and bring up to heat (approx 30 mins \\u2013 1 hr) before bring into house. Excessive ashes reduce heat emission. Lighting jikos outside prevents carbon monoxide poisoning.<br/><p>\\n</p>"
+                }
+            ],
+            "is_one_time_cost":true,
+            "id":0,
+            "exclude":false,
+            "time_frame":"Build a chicken house"
+        },
+        {
+            "custom_costs":[
+
+            ],
+            "activities":[
+                {
+                    "inputs":[
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"500.00"
+                            },
+                            "name":"Day old chicks",
+                            "price":30000,
+                            "unit":"",
+                            "notes":"Buy day-old chicks from Kenchic",
+                            "unit_plural":"",
+                            "id":7,
+                            "estimated_price":30000
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"1.00"
+                            },
+                            "name":"Disinfectant",
+                            "price":750,
+                            "unit":"litre",
+                            "notes":"",
+                            "unit_plural":"litres",
+                            "id":8,
+                            "estimated_price":750
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"82.50"
+                            },
+                            "name":"Feed (starter mash)",
+                            "price":4125,
+                            "unit":"kg",
+                            "notes":"Feed each chick 165 grams of starter mash weekly",
+                            "unit_plural":"kg",
+                            "id":9,
+                            "estimated_price":4125
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":1,
+                            "name":"Vitamins (0.5kg vigosine)",
+                            "price":350,
+                            "unit":"packet",
+                            "notes":"",
+                            "unit_plural":"packets",
+                            "id":10,
+                            "estimated_price":350
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":3,
+                            "name":"Charcoal bags",
+                            "price":4500,
+                            "unit":"bag",
+                            "notes":"",
+                            "unit_plural":"bags",
+                            "id":11,
+                            "estimated_price":4500
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":5,
+                            "name":"Wood shavings",
+                            "price":750,
+                            "unit":"bag",
+                            "notes":"",
+                            "unit_plural":"bags",
+                            "id":12,
+                            "estimated_price":750
+                        }
+                    ],
+                    "id":2,
+                    "description":"Purchase and raise day-old chicks",
+                    "notes":"<ul><li>Before bringing in your chicks, spray the floor, walls, roof and all brooding equipment with suitable disinfectant. <br/></li><li>Addition of multivitamins in the water for the first few days may help counteract stress in the chicks due to processing in hatchery, transport, vaccinations if done at hatcher. </li></ul>"
+                }
+            ],
+            "is_one_time_cost":false,
+            "id":1,
+            "exclude":false,
+            "time_frame":"Week 1 (days 1 to 7)"
+        },
+        {
+            "custom_costs":[
+
+            ],
+            "activities":[
+                {
+                    "inputs":[
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"186.00"
+                            },
+                            "name":"Feed (starter mash)",
+                            "price":9300,
+                            "unit":"kg",
+                            "notes":"Feed each chick 372 grams of starter mash weekly",
+                            "unit_plural":"kg",
+                            "id":13,
+                            "estimated_price":9300
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"1.00"
+                            },
+                            "name":"Vaccines - Newcastle and Infection Bronchitis",
+                            "price":500,
+                            "unit":"packet",
+                            "notes":"Administer on day 7-8",
+                            "unit_plural":"packets",
+                            "id":14,
+                            "estimated_price":500
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"1.00"
+                            },
+                            "name":"Vaccines - Gumboro",
+                            "price":500,
+                            "unit":"packet",
+                            "notes":"Administer on day 10-11",
+                            "unit_plural":"packet",
+                            "id":15,
+                            "estimated_price":500
+                        }
+                    ],
+                    "id":3,
+                    "description":"Feeding and vaccination",
+                    "notes":""
+                }
+            ],
+            "is_one_time_cost":false,
+            "id":2,
+            "exclude":false,
+            "time_frame":"Week 2 (days 8 to 14)"
+        },
+        {
+            "custom_costs":[
+
+            ],
+            "activities":[
+                {
+                    "inputs":[
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"324.00"
+                            },
+                            "name":"Feed (starter mash)",
+                            "price":16200,
+                            "unit":"kg",
+                            "notes":"Feed each bird 648 grams of starter mash weekly",
+                            "unit_plural":"kg",
+                            "id":16,
+                            "estimated_price":16200
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"1.00"
+                            },
+                            "name":"Vaccines - Gumboro",
+                            "price":500,
+                            "unit":"packet",
+                            "notes":"Administer on day 18-19",
+                            "unit_plural":"packet",
+                            "id":17,
+                            "estimated_price":500
+                        }
+                    ],
+                    "id":4,
+                    "description":"Feeding and vaccination",
+                    "notes":""
+                }
+            ],
+            "is_one_time_cost":false,
+            "id":3,
+            "exclude":false,
+            "time_frame":"Week 3 (days 15 to 21)"
+        },
+        {
+            "custom_costs":[
+
+            ],
+            "activities":[
+                {
+                    "inputs":[
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"472.00"
+                            },
+                            "name":"Feed (finisher mash)",
+                            "price":23600,
+                            "unit":"kg",
+                            "notes":"Feed each bird 944 grams of finisher mash weekly",
+                            "unit_plural":"kg",
+                            "id":18,
+                            "estimated_price":23600
+                        },
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"1.00"
+                            },
+                            "name":"Vaccines - Newcastle and Infection Bronchitis",
+                            "price":500,
+                            "unit":"packet",
+                            "notes":"Administer on day 21-22",
+                            "unit_plural":"packets",
+                            "id":19,
+                            "estimated_price":500
+                        }
+                    ],
+                    "id":5,
+                    "description":"Feeding and vaccination",
+                    "notes":""
+                }
+            ],
+            "is_one_time_cost":false,
+            "id":4,
+            "exclude":false,
+            "time_frame":"Week 4 (days 22 to 28)"
+        },
+        {
+            "custom_costs":[
+
+            ],
+            "activities":[
+                {
+                    "inputs":[
+                        {
+                            "show_quantity":true,
+                            "quantity":{
+                                "__type__":"decimal",
+                                "value":"605.50"
+                            },
+                            "name":"Feed (finisher mash)",
+                            "price":30275,
+                            "unit":"kg",
+                            "notes":"Feed each bird 1211 grams of finisher mash weekly",
+                            "unit_plural":"kg",
+                            "id":20,
+                            "estimated_price":30275
+                        }
+                    ],
+                    "id":6,
+                    "description":"Feeding",
+                    "notes":""
+                }
+            ],
+            "is_one_time_cost":false,
+            "id":5,
+            "exclude":false,
+            "time_frame":"Week 5 (days 28 to 35)"
+        }
+    ],
+    "has_one_time_costs":true,
+    "estimated_unit_sale_price":400
+}
