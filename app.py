@@ -63,18 +63,43 @@ def get_quantity(item: dict):
     return Decimal(qty)
 
 
+def update_quantity(item: dict, new_qty):
+    """
+    Get the value of the quantity
+    """
+    qty = item.get('quantity')
+    if isinstance(qty, dict):
+        item['quantity']['value'] = new_qty
+    else:
+        item['quantity'] = new_qty
+
+
 def get_tomatoes_budget(acres: int = 1):
     """
     Calculates and returns tomatoes budget
     """
     budget = get_budget_fixture(thing_being_farmed=1)
 
-    for i, segment in enumerate(budget['segments']):
-        for i2, activity in enumerate(segment['activities']):
-            for i3, item in enumerate(activity['inputs']):
-                new_price = acres * item['price']
-                item['estimated_price'] = new_price
-                item['price'] = new_price
+    if acres > 1:
+        # ratios of custom inputs
+        ratios = {
+            3: 7.2
+        }
+
+        for i, segment in enumerate(budget['segments']):
+            for i2, activity in enumerate(segment['activities']):
+                for i3, item in enumerate(activity['inputs']):
+                    qty = get_quantity(item)
+                    new_qty = qty * acres
+                    update_quantity(item, new_qty)
+
+                    new_price = acres * item['price']
+
+                    if item['id'] in ratios.keys():
+                        new_price = ratios[item['id']] * acres
+
+                    item['estimated_price'] = new_price
+                    item['price'] = new_price
 
     return budget
 
