@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+name = "pypi"
+verify_ssl = true
+
+[packages]
+budget-app = {editable = true, path = "."}
+
+[requires]
+python_version = "3.6"
+
+[dev-packages]
+pylint = "*"
+"flake8" = "*"
+"pep8" = "*"
+pycodestyle = "*"
+isort = "*"
+"autopep8" = "*"
