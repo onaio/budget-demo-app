@@ -28,7 +28,7 @@ BUDGET_ALLOWED_TYPES = [
     2,  # broilers
 ]
 
-configure(locals(), django_admin=True)
+configure(locals(), django_admin=False)
 
 # --------------------
 # Functions
