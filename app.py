@@ -150,7 +150,7 @@ def show_index(request):
 
         if budget is not None:
             if request.GET.get('flat'):
-                flat_budget = FlatterDict(budget)
+                flat_budget = FlatterDict(budget, delimiter="_")
 
                 return JsonResponse(dict(flat_budget))
 
