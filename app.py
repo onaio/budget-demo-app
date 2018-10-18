@@ -131,6 +131,7 @@ def show_index(request):
     """
     Main index view
     """
+    segment = None
     type_of_thing = request.GET.get('type')
 
     amt = request.GET.get('amount')
@@ -147,6 +148,16 @@ def show_index(request):
             budget = get_tomatoes_budget(acres=amt)
         elif int(type_of_thing) == 2:
             budget = get_broilers_budget(chickens=amt)
+
+        segment = request.GET.get('segment')
+        if segment and segment.isdigit():
+            segment = int(segment)
+
+            if budget is not None:
+                try:
+                    budget = budget['segments'][segment]
+                except IndexError:
+                    budget = None
 
         if budget is not None:
             if request.GET.get('flat'):
