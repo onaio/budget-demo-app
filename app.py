@@ -11,7 +11,9 @@ from decimal import Decimal
 
 from django.http import JsonResponse
 from django.test import TestCase
+
 from django_micro import configure, route, run
+from flatdict import FlatterDict
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
@@ -139,12 +141,20 @@ def show_index(request):
 
     if type_of_thing and type_of_thing.isdigit() and\
             int(type_of_thing) in BUDGET_ALLOWED_TYPES:
+        budget = None
+
         if int(type_of_thing) == 1:
             budget = get_tomatoes_budget(acres=amt)
         elif int(type_of_thing) == 2:
             budget = get_broilers_budget(chickens=amt)
 
-        return JsonResponse(budget)
+        if budget is not None:
+            if request.GET.get('flat'):
+                flat_budget = FlatterDict(budget)
+
+                return JsonResponse(dict(flat_budget))
+
+            return JsonResponse(budget)
 
     return JsonResponse({"error": "Nothing here."})
 
